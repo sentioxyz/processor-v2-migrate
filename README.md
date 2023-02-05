@@ -1,7 +1,8 @@
 The project is to shall how to migrate processor from v1 to v2.
 There are a lot of structure change in V2. This project can be built but not suppose to actually run.
 
-Example Commit: sentioxyz/processor-v2-migrate@e85d2c5
+[Example Commit: sentioxyz/processor-v2-migrate@e85d2c5
+](https://github.com/sentioxyz/processor-v2-migrate/commit/e85d2c57cf78f4b4251763547e177d4d43fbfbd7)
 
 - all project should be ESM module, which mean you need
   - add `"type": "module` to package.json
