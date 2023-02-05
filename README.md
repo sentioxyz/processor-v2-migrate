@@ -1,6 +1,8 @@
 The project is to shall how to migrate processor from v1 to v2.
 There are a lot of structure change in V2. This project can be built but not suppose to actually run.
 
+Example Commit: sentioxyz/processor-v2-migrate@e85d2c5
+
 - all project should be ESM module, which mean you need
   - add `"type": "module` to package.json
   - use new tsconfig and jest config, just use the sample `tsconfig.json` and `jest.config.ts`, remove the old `jest.config.js`
