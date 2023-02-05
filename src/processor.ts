@@ -1,2 +1,2 @@
-require("./processor-eth")
-require("./processor-aptos")
+import "./processor-eth"
+import "./processor-aptos"
