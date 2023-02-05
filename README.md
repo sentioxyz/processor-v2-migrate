@@ -17,4 +17,5 @@ There are a lot of structure change in V2. This project can be built but not sup
 - testings 
   - test script in `package.json` should change from `jest` to `sentio test`
   - `const service = new TestProcessorServer(()=> require('./processor'))` change to `const service = new TestProcessorServer(()=> import('./processor.js'))`
-- for aptos process, `xxx_typed` replaced as `xxx_decoded`
+- for aptos processpr, `xxx_typed` replaced as `xxx_decoded`
+- for eth processor, `onBlock` should be replace with `onBlockInterval`
